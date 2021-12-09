@@ -7,6 +7,9 @@ module.exports = {
     ],
     darkMode: 'class',
     theme: {
+        fontFamily: {
+            sans: ["'Open Sans'", 'sans-serif']
+        },
         extend: {},
     },
     variants: {},
