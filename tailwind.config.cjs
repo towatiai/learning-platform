@@ -1,4 +1,5 @@
 module.exports = {
+    jit: true,
     // you dont need `purge: enabled: production` because you are using jit
     purge: [
         "./src/**/*.svelte",
