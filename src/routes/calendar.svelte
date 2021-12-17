@@ -167,7 +167,7 @@
             class="flex cursor-pointer { true 
             ? 'bg-gradient-to-r from-amber-600 to-amber-700 text-white shadow-md shadow-amber-800/40'
             :'bg-amber-100 border border-amber-400/50 text-amber-900' } rounded-lg  py-2 px-3"
-            on:click={() => dialogUp = true }
+            on:click={() => {selectedEvent = schedule[0][0]; dialogUp = true} }
         >
             <svg
                 class="w-8 h-8 mr-2 self-center"
@@ -184,7 +184,7 @@
             >
             <div class="flex-1">
                 <div class="flex justify-between">
-                    <p class="font-bold leading-4">Geography</p>
+                    <p class="font-bold leading-4 tracking-wide">Geography</p>
                     <p class="text-sm">{timeToString(11, 11.95)}</p>
                 </div>
                 <p class="self-center mr-2 text-sm">Starting in 13 minutes</p>
@@ -268,7 +268,7 @@
     <div class="flex">
         <div class="mt-1.5 mr-2 h-4 w-4 rounded-full {getColor(selectedEvent.title, true)}"></div>
         <div>
-            <h1 class="text-xl">{selectedEvent.title}</h1>
+            <h1 class="text-xl tracking-wide">{selectedEvent.title}</h1>
             
         </div>
     </div>
