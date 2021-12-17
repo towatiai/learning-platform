@@ -9,8 +9,8 @@ module.exports = {
     darkMode: 'class',
     theme: {
         fontFamily: {
-            sans: ["'Questrial'", 'sans-serif'],
-            varela: ["'varela round', 'serif'"],
+            sans: ["'varela round', 'serif'"],
+            varela: ["'Varela Round', 'sans-serif'"],
         },
         extend: {},
         screens: {
