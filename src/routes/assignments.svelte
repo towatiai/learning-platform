@@ -88,8 +88,8 @@ const freePick = () => {
 </script>
 
 <div 
-  class="flex flex-col overflow-y-auto h-screen w-12/12 bg-no-repeat bg-cover tablet:w-screen tablet:h-screen"
-  style = "background-image: url('src/images/bg1.png')"
+  class="flex flex-col overflow-y-auto h-screen w-12/12 bg-no-repeat bg-cover tablet:w-screen tablet:h-screen bg-gradient-to-r from-amber-600 to-amber-700"
+  
 >
   <header class=" border-b-2 border-white ml-4 mr-4">
     <div class="flex flex-col justify-between mt-0">
