@@ -4,7 +4,7 @@
     console.log(page);
 </script>
 
-<nav class="fixed bottom-0 flex justify-between w-full bg-gray-50 text-gray-400">
+<nav class="fixed bottom-0 flex justify-between w-full bg-gray-50 text-gray-400 border-t border-gray-200">
     <a href="/" class={$page.path === '/' ? 'active':''}>
         <!-- Heroicons 'home' icon -->
         { #if $page.path === '/'}
