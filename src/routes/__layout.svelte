@@ -2,12 +2,15 @@
   import "../tailwind.css";
   import BottomNav from "/src/components/BottomNav.svelte";
   import { Container } from 'sveltestrap';
+  import {getStores} from "$app/stores";
+  const {page} = getStores();
 </script>
 
-<Container fluid>
+{ #if $page.path === '/calendar'}
 <slot />
-
-</Container>
+{ :else }
+<Container fluid><slot /></Container>
+{ /if }
 <BottomNav />
 <style>:global(body){
   background: #2e3440;
