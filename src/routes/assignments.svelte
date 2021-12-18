@@ -114,7 +114,7 @@ function colorScheme(course) {
     case "arts":
         return "bg-gray-300 border-gray-400/50 text-gray-700 border-dashed rounded-full text-center";
     default:
-        return "bg-yello-300 border-yellow-400/50 text-yellow-700 border-dashed rounded-full text-center";
+        return "bg-yellow-300 border-yellow-400/50 text-yellow-700 border-dashed rounded-full text-center";
   }
 }
 
