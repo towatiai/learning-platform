@@ -155,7 +155,7 @@
         Array.from({ length: end - start + 1 }, (_, i) => i + start);
 </script>
 
-<div style="background: #fffdfd">
+<div style="background: #fffdfd" class="font-varela">
     <header class="px-4 pt-2">
         <div class="flex mb-2">
             <h1 class="text-2xl mr-2">{format(today, "EEEE")},</h1>
@@ -167,7 +167,7 @@
             class="flex cursor-pointer { true 
             ? 'bg-gradient-to-r from-amber-600 to-amber-700 text-white shadow-md shadow-amber-800/40'
             :'bg-amber-100 border border-amber-400/50 text-amber-900' } rounded-lg  py-2 px-3"
-            on:click={() => dialogUp = true }
+            on:click={() => {selectedEvent = schedule[0][0]; dialogUp = true} }
         >
             <svg
                 class="w-8 h-8 mr-2 self-center"
@@ -184,7 +184,7 @@
             >
             <div class="flex-1">
                 <div class="flex justify-between">
-                    <p class="font-bold leading-4">Geography</p>
+                    <p class="font-bold leading-4 tracking-wide">Geography</p>
                     <p class="text-sm">{timeToString(11, 11.95)}</p>
                 </div>
                 <p class="self-center mr-2 text-sm">Starting in 13 minutes</p>
@@ -260,7 +260,7 @@
 <div class="w-full h-full fixed top-0 left-0 bg-gray-800/70 z-10" style="opacity: {1- $dialogPos / 250}; display: {$dialogPos > 250 ? 'none':'block'}" on:click={() => dialogUp = false }></div>
 
 
-<div class="fixed px-4 py-2 bg-white w-full bottom-0 z-20 rounded-t-xl" style="transform:translateY({$dialogPos}px)">
+<div class="fixed px-4 py-2 bg-white w-full bottom-0 z-20 rounded-t-xl font-varela" style="transform:translateY({$dialogPos}px)">
     
     <div class="cursor-pointer pb-2" use:drag>
         <div class="w-6 mb-2 mx-auto rounded-full bg-gray-400 " style="height: 4px"></div>
@@ -268,7 +268,7 @@
     <div class="flex">
         <div class="mt-1.5 mr-2 h-4 w-4 rounded-full {getColor(selectedEvent.title, true)}"></div>
         <div>
-            <h1 class="text-xl">{selectedEvent.title}</h1>
+            <h1 class="text-xl tracking-wide">{selectedEvent.title}</h1>
             
         </div>
     </div>
