@@ -117,9 +117,9 @@
                 &nbsp;
             </div>
             <div class="column tag-main">
-                <p class="small-text"> CS-E5220 </p>
+                <p class="small-text"> Mathematics </p>
                 <p class="small-text"> 17 Dec, 12:28 by Olli-Pekka </p>
-                <p class="bold"> New bonus assignments have been posted! </p>
+                <p class="bold"> Do not forget to bring your calculators for next class! </p>
             </div>
         </div>
         <div class=row>
@@ -130,9 +130,9 @@
                 &nbsp;
             </div>
             <div class="column tag-main">
-                <p class="small-text"> LC-1330 </p>
+                <p class="small-text"> English </p>
                 <p class="small-text"> 14 Dec, 14:47 by Sanna </p>
-                <p class="bold"> Next class has been postponed to the 22nd of December </p>
+                <p class="bold"> We will be reading the first chapter of the book "Diary of a Wimpy Kid" during next class </p>
             </div>
         </div>
         <div class=row>
@@ -143,9 +143,9 @@
                 &nbsp;
             </div>
             <div class="column tag-main">
-                <p class="small-text"> CS-E4200 </p>
+                <p class="small-text"> Arts </p>
                 <p class="small-text"> 10 Dec, 10:13 by Gregory </p>
-                <p class="bold"> New guidelines for the final project report are available </p>
+                <p class="bold"> Remember to bring old clothes for class on the 12th December to avoid stains on your uniforms </p>
             </div>
         </div>
     </div>
@@ -160,12 +160,12 @@
                 </svg>
             </div>
             <div class="column middle">
-                <h2 class="bold"> Assignment 4 </h2>
-                <p> CS-E5220 </p>
+                <h2 class="bold"> Exercise 4 Pg. 54</h2>
+                <p> Chemistry </p>
             </div>
             <div class="column right3 text-center rounded">
-                <p> Mon, 20 Dec </p>
-                <p> 23:59 </p>
+                <p> Fri, 24 Dec </p>
+                <p> 17:59 </p>
             </div>
         </div>
         <div class=row>
@@ -175,11 +175,11 @@
                 </svg>
             </div>
             <div class="column middle">
-                <h2 class="bold"> Individual Essay </h2>
-                <p> LC-1330 </p>
+                <h2 class="bold"> Exercises 1-4 Pg. 26  </h2>
+                <p> History </p>
             </div>
             <div class="column right3 text-center rounded">
-                <p> Tue, 21 Dec </p>
+                <p> Tue, 28 Dec </p>
                 <p> 18:59 </p>
             </div>
         </div>
@@ -190,14 +190,32 @@
                 </svg>
             </div>
             <div class="column middle">
-                <h2 class="bold"> Practical Asssign... </h2>
-                <p> CS-E4200 </p>
+                <h2 class="bold"> Exercises Pg.76 </h2>
+                <p> Biology </p>
             </div>
             <div class="column right3 text-center rounded">
-                <p> Tue, 21 Dec </p>
-                <p> 23:59 </p>
+                <p> Fri, 31 Dec </p>
+                <p> 16:59 </p>
             </div>
         </div>
+        <div class=row>
+            <div class="column left3">
+                <svg class="icon" id="assignment" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
+                </svg>
+            </div>
+            <div class="column middle">
+                <h2 class="bold"> Drawing your Holid... </h2>
+                <p> Arts </p>
+            </div>
+            <div class="column right3 text-center rounded">
+                <p> Fri, 31 Dec </p>
+                <p> 17:59 </p>
+            </div>
+        </div>
+        <p> &nbsp; </p>
+        <p> &nbsp; </p>
+        <p> &nbsp; </p>
     </div>
     
 </div>
