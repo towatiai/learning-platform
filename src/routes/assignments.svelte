@@ -59,6 +59,14 @@
       topic: "Picasso",
       instructions: "Curabitur pharetra commodo lorem, sit amet pulvinar neque ornare ac. Quisque ultrices lacinia nibh at dignissim. Donec posuere dolor neque, eleifend mattis odio convallis nec. Fusce id tellus ac quam accumsan gravida. In quis lectus urna. Aliquam erat volutpat. Maecenas quis sagittis neque. Curabitur ut tempus tellus, a pellentesque libero. Duis maximus purus nec arcu ornare ullamcorper. Vestibulum a enim nisi. Donec sem felis, dictum vel tortor vitae, pulvinar molestie lectus. Morbi mollis quis arcu eleifend rutrum. Donec eros ligula, gravida sed arcu eu, viverra laoreet felis. Donec consectetur ipsum at tellus molestie, sit amet maximus arcu ultrices. Etiam pharetra lorem elit, id congue enim ornare at."
     },
+    {
+      course: "English",
+      deadline: new Date('December 30, 2021'),
+      teacher: "Kimmo Kuusi",
+      assistant: "Johannes Timi",
+      topic: "Literacy",
+      instructions: "Curabitur pharetra commodo lorem, sit amet pulvinar neque ornare ac. Quisque ultrices lacinia nibh at dignissim. Donec posuere dolor neque, eleifend mattis odio convallis nec. Fusce id tellus ac quam accumsan gravida. In quis lectus urna. Aliquam erat volutpat. Maecenas quis sagittis neque. Curabitur ut tempus tellus, a pellentesque libero. Duis maximus purus nec arcu ornare ullamcorper. Vestibulum a enim nisi. Donec sem felis, dictum vel tortor vitae, pulvinar molestie lectus. Morbi mollis quis arcu eleifend rutrum. Donec eros ligula, gravida sed arcu eu, viverra laoreet felis. Donec consectetur ipsum at tellus molestie, sit amet maximus arcu ultrices. Etiam pharetra lorem elit, id congue enim ornare at."
+    },
   ];
 
 assignments = assignments.sort((a,b) => a.deadline.getTime() - b.deadline.getTime());
@@ -85,11 +93,35 @@ const freePick = () => {
   clickedAssignment = null;
 }
 
+function colorScheme(course) {
+  switch (course.toLowerCase()) {
+    case "english":
+        return "bg-red-300 border-red-400/50 text-red-900 rounded-full text-center";
+    case "mathematics":
+        return "bg-fuchsia-300 border-fuchsia-400/50 text-fuchsia-900 rounded-full text-center px-1";
+    case "chemistry":
+        return "bg-purple-300 border-purple-400/50 text-purple-900 rounded-full text-center";
+    case "physics":
+        return "bg-blue-300 border-blue-400/50 text-blue-900 rounded-full text-center";
+    case "geography":
+        return "bg-amber-300 border-amber-400/50 text-amber-900 rounded-full text-center";
+    case "biology":
+        return "bg-lime-300/100 border-lime-400/50 text-lime-900 rounded-full text-center";
+    case "science":
+        return "bg-sky-300 border-sky-400/50 text-sky-900 rounded-full text-center";
+    case "history":
+        return "bg-orange-300 border-orange-400/50 text-orange-900 rounded-full text-center";
+    case "arts":
+        return "bg-gray-300 border-gray-400/50 text-gray-700 border-dashed rounded-full text-center";
+    default:
+        return "";
+  }
+}
+
 </script>
 
 <div 
-  class="flex flex-col overflow-y-auto h-screen w-12/12 bg-no-repeat bg-cover tablet:w-screen tablet:h-screen bg-gradient-to-r from-amber-600 to-amber-700"
-  
+  class="flex flex-col overflow-y-auto h-screen w-12/12 bg-no-repeat bg-cover tablet:w-screen tablet:h-screen"
 >
   <header class=" border-b-2 border-white ml-4 mr-4">
     <div class="flex flex-col justify-between mt-0">
@@ -112,9 +144,10 @@ const freePick = () => {
           assignments = {assignments}
           toggleShow= {toggleShow} 
           handlePick = {handlePick}
+          colorScheme= {colorScheme}
         />
       {:else}
-        <Assignment assignment = {clickedAssignment} freePick= {freePick}/>
+        <Assignment assignment = {clickedAssignment} freePick= {freePick} colorScheme= {colorScheme}/>
       {/if}
     </div>
   </div>

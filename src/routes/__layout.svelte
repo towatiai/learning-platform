@@ -9,3 +9,7 @@
 
 </Container>
 <BottomNav />
+<style>:global(body){
+  background: #2e3440;
+}
+</style>
