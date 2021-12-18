@@ -1,0 +1,62 @@
+[
+{
+  "type": "img",
+  "subject": "math",
+  "path": "./images/plus.png",
+  "content": "This is a plus sign"
+},
+{
+  "type": "img",
+  "subject": "math",
+  "path": "./images/minus.png",
+  "content": "This is a minus sign"
+},
+{
+  "type": "text",
+  "subject": "biology",
+  "path": "./data/animals.txt",
+  "content": "List of animals"
+},
+{
+  "type": "img",
+  "subject": "arts",
+  "path": "./images/painting.png",
+  "content": "Interesting painting"
+},
+{
+  "type": "txt",
+  "subject": "history",
+  "path": "./data/great_people.txt",
+  "content": "Historical figures"
+},
+{
+  "type": "img",
+  "subject": "history",
+  "path": "./images/ahtisaari.png",
+  "content": "Picture of Martti Ahtisaari"
+},
+{
+  "type": "txt",
+  "subject": "arts",
+  "path": "./data/song.txt",
+  "content": "words for the song."
+},
+{
+  "type": "txt",
+  "subject": "english",
+  "path": "./data/verbs.txt",
+  "content": "list of irregular verbs"
+},
+{
+  "type": "img",
+  "subject": "sports",
+  "path": "./images/excercise.png",
+  "content": "This week sport intstructions"
+},
+{
+  "type": "text",
+  "subject": "math",
+  "path": "./data/math_exam.txt",
+  "content": "This week math practice exam"
+}
+]

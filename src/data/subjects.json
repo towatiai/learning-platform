@@ -1,0 +1,32 @@
+[
+  {"subject": "math",
+    "color": "#4287f5",
+    "icon": "../static/images/math.png",
+    "data":[]
+  },
+  {"subject": "arts",
+    "color": "white",
+    "icon": "../static/images/pencil.svg",
+    "data":[]
+  },
+  {"subject": "sports",
+    "color": "red",
+    "icon": "../static/images/soccer.svg",
+    "data":[]
+  },
+  {"subject": "english",
+    "color": "slate",
+    "icon": "../static/images/language.svg",
+    "data":[]
+  },
+  {"subject": "history",
+    "color": "red",
+    "icon": "../static/images/books.png",
+    "data":[]
+  },
+  {"subject": "biology",
+    "color": "red",
+    "icon": "../static/images/tree.svg",
+    "data":[]
+  }
+]

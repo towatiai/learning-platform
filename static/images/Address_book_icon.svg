@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="50" height="60" id="svg2">
+  <defs id="defs4"/>
+  <metadata id="metadata7">
+    <rdf:RDF>
+      <cc:Work rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform="translate(-283.12,-257.61)" id="layer1">
+    <rect width="39.643" height="50.785" x="287.67" y="263.3" id="rect3836" style="fill:white;fill-opacity:1;stroke:black;stroke-width:2.78657;stroke-miterlimit:4;stroke-dasharray:none"/>
+    <rect width="10.872" height="10.676" ry="1.2542" x="318.78" y="282.81" id="rect3834" style="fill:white;stroke:black;stroke-width:2.78657;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/>
+    <rect width="10.872" height="10.676" ry="1.42" x="318.78" y="272.86" id="rect3832" style="fill:white;stroke:black;stroke-width:2.78657;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/>
+    <rect width="10.872" height="10.676" ry="1.4616" x="318.78" y="262.38" id="rect3052" style="fill:white;stroke:black;stroke-width:2.78657;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/>
+    <path d="m 286,310.99 l 0.9,3.37" id="path3845" style="fill:none;stroke:black;stroke-width:1.82001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/>
+    <path d="m 288.79,308.2 l 0.9,3.37" id="path3847" style="fill:none;stroke:white;stroke-width:1.82001;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"/>
+    <rect width="39.643" height="50.785" x="284.89" y="259.58" id="rect3050" style="fill:black;fill-opacity:1;stroke:none"/>
+  </g>
+</svg>
