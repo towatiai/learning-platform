@@ -1,31 +1,31 @@
 [
   {"subject": "math",
-    "color": "bg-fuchsia-200/50",
+    "color": "bg-fuchsia-600",
     "icon": "../static/images/math.png",
     "data":[]
   },
   {"subject": "arts",
-    "color": "bg-amber-200/50",
+    "color": "bg-amber-600",
     "icon": "../static/images/pencil.svg",
     "data":[]
   },
   {"subject": "sports",
-    "color": "bg-yellow-200/50",
+    "color": "bg-green-600",
     "icon": "../static/images/soccer.svg",
     "data":[]
   },
   {"subject": "english",
-    "color": "bg-red-200/50",
+    "color": "bg-red-600",
     "icon": "../static/images/language.svg",
     "data":[]
   },
   {"subject": "history",
-    "color": "bg-orange-200/50",
+    "color": "bg-orange-600",
     "icon": "../static/images/books.png",
     "data":[]
   },
   {"subject": "biology",
-    "color": "bg-lime-200/50",
+    "color": "bg-lime-600",
     "icon": "../static/images/tree.svg",
     "data":[]
   }
