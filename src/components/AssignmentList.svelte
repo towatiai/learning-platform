@@ -16,7 +16,7 @@
   <thead>
     <tr>
       <th>Deadline</th>
-      <th>Course</th>
+      <th>Class</th>
       <th>Teacher</th>
       <th></th>
     </tr>
