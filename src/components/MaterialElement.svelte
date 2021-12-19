@@ -20,7 +20,7 @@ img.icon {
 <AccordionItem class={color}>
   <Row slot=header>
     <Col>
-      <img class="icon" src={icon}>
+      <img class="icon" src={icon} alt="#">
     </Col>
     <Col>
       <h2 class="uppercase font-medium">{subject}</h2>
@@ -33,7 +33,7 @@ img.icon {
 
         {#if elem.type === "img"}
           <li>{elem.content}</li>
-          <img src={elem.path}>
+          <img src={elem.path} alt="#">
         {:else if elem.type === "txt"}
           <li><Button on:click={() => (isOpen = !isOpen)} class="mb-3">{#if isOpen} Hide {:else} Show {/if} {elem.content}</Button></li>
           <Collapse {isOpen}>
