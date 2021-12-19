@@ -12,9 +12,9 @@
   "content": "This is a minus sign"
 },
 {
-  "type": "text",
+  "type": "txt",
   "subject": "biology",
-  "path": "./data/animals.txt",
+  "path": "Elephant<br/> Lion<br/> Springbok<br/> Warthog<br/> Zebra<br/> Ostrich<br/> Hippopotamus<br/>",
   "content": "List of animals"
 },
 {
@@ -26,7 +26,7 @@
 {
   "type": "txt",
   "subject": "history",
-  "path": "./data/great_people.txt",
+  "path": "Nelson Mandela<br/>  Haile Selassie<br/>  Kwame Nkrumah<br/>  Julius Nyerere<br/>  Patrice Lumumba<br/>  Kofi Annan<br/>  Thomas Isidore Noel Sankara<br/>  Jomo Kenyatta<br/>  Kenneth Kaunda<br/>  Ellen Johnson-Sirleaf ",
   "content": "Historical figures"
 },
 {
@@ -38,13 +38,13 @@
 {
   "type": "txt",
   "subject": "arts",
-  "path": "./data/song.txt",
+  "path": "Head, shoulders, knees and toes,<br/>  Knees and toes.<br/>  Head, shoulders, knees and toes,<br/>  Knees and toes.<br/>  And eyes, and ears, and mouth, and nose.<br/>  Head, shoulders, knees and toes,<br/>  Knees and toes.",
   "content": "words for the song."
 },
 {
   "type": "txt",
   "subject": "english",
-  "path": "./data/verbs.txt",
+  "path": "become, became, become<br/>    begin, began, begun<br/>    blow, blew, blown<br/>    break, broke, broken<br/>, brought, brought<br/>    buy, bought, bought<br/>    choose, chose, chosen<br/>come, came, come<br/>    do, did, done<br/>    draw, drew, drawn<br/>    drink, drank, drunk<br/>    drive, drove, driven<br/>    eat, ate, eaten<br/>    fall, fell, fallen<br/>    feel, felt, felt<br/>    fight, fought, fought<br/>    find, found, found",
   "content": "list of irregular verbs"
 },
 {
@@ -54,9 +54,9 @@
   "content": "This week sport intstructions"
 },
 {
-  "type": "text",
+  "type": "txt",
   "subject": "math",
-  "path": "./data/math_exam.txt",
+  "path": "1 + 3 =<br/>  2 + 4 =<br/>  5 - 2 =<br/>  3 - 1 =<br/>  7 + 2 =<br/>  1 + 1 =<br/>  8 - 4 =<br/>  10 - 1 =",
   "content": "This week math practice exam"
 }
 ]

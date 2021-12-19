@@ -9,7 +9,7 @@
 
 </script>
 
-<h1>Materials</h1>
+<h1 class="uppercase mx-auto">Materials</h1>
 
   <Row class="mx-auto ">
 

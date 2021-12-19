@@ -1,7 +1,0 @@
-Elephant
-Lion
-Springbok
-Warthog
-Zebra
-Ostrich
-Hippopotamus
