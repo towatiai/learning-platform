@@ -1,8 +1,8 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=VarelaRound&display=swap');
 
     .general {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Varela Round', sans-serif;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -22,12 +22,14 @@
         width: 15%;
     }
     .middle {
-        width: 50%;
+        width: 48%;
         padding-left: 5px;
+        padding-top: 4px;
     }
     .right3 {
-        width: 32%;
+        width: 35%;
         background-color: rgba(37, 99, 235, 0.03);
+        margin-bottom: 10px
     }
     .tag {
         width: 3%;
@@ -43,7 +45,7 @@
         font-size: small;
     }
     .main-header {
-        color: #202020;
+        color: #ffffff;
         font-size: x-large;
         margin-top: 0;
     }
@@ -77,10 +79,15 @@
     }
     .subheading {
         margin-top: 20px;
-        color: #424242;
+        color: #d8d8d8;
     }
     .bold {
         font-weight: bold;
+    }
+    hr {
+        color: #ffffff;
+        height: 3px;
+        margin-bottom: 5px;
     }
 
 </style>
@@ -88,7 +95,7 @@
 <div class="general">
     <div class="row">
         <div class="column left">
-            <h3 class="small-text"> 20 Dec </h3>
+            <h3 class="small-text" style="color: #d8d8d8; margin-top: 5px;"> 20 Dec </h3>
             <h1 class="main-header bold"> Hi, Markus </h1>
         </div>
         <div class="column right">
@@ -108,7 +115,7 @@
     <div>
         <h2 class="subheading"> Notifications </h2>
         <hr>
-        <div class=row>
+        <div class="row">
             <div class="column tag" style="background-color:rgb(112, 26, 117);">
                 <p class="small-text"> &nbsp; </p>
                 <p class="small-text"> &nbsp; </p>
@@ -116,12 +123,12 @@
                 &nbsp;
             </div>
             <div class="column tag-main" style="background-color:rgb(250, 230, 253);">
-                <p class="small-text"> Mathematics </p>
+                <p class="small-text" style="margin-top: 2px"> Mathematics </p>
                 <p class="small-text"> 17 Dec, 12:28 by Olli-Pekka </p>
                 <p class="bold"> Do not forget to bring your calculators for next class! </p>
             </div>
         </div>
-        <div class=row>
+        <div class="row">
             <div class="column tag" style="background-color:rgb(127, 29, 29);">
                 <p class="small-text"> &nbsp; </p>
                 <p class="small-text"> &nbsp; </p>
@@ -129,12 +136,12 @@
                 &nbsp;
             </div>
             <div class="column tag-main" style="background-color:rgb(254, 227, 227);">
-                <p class="small-text"> English </p>
+                <p class="small-text" style="margin-top: 2px"> English </p>
                 <p class="small-text"> 14 Dec, 14:47 by Sanna </p>
                 <p class="bold"> We will be reading the first chapter of the book "Diary of a Wimpy Kid" during next class </p>
             </div>
         </div>
-        <div class=row>
+        <div class="row">
             <div class="column tag" style="background-color:rgb(30, 58, 138);">
                 <p class="small-text"> &nbsp; </p>
                 <p class="small-text"> &nbsp; </p>
@@ -142,7 +149,7 @@
                 &nbsp;
             </div>
             <div class="column tag-main" style="background-color:rgb(223, 236, 253);">
-                <p class="small-text"> Arts </p>
+                <p class="small-text" style="margin-top: 2px"> Arts </p>
                 <p class="small-text"> 10 Dec, 10:13 by Gregory </p>
                 <p class="bold"> Remember to bring old clothes for class on the 12th December to avoid stains on your uniforms </p>
             </div>
@@ -152,7 +159,7 @@
     <div>
         <h2 class="subheading"> Timeline </h2>
         <hr>
-        <div class=row>
+        <div class="row rounded" style="background-color: white; margin-left: 0; margin-right: 0">
             <div class="column left3">
                 <svg class="icon" id="assignment" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
@@ -167,7 +174,7 @@
                 <p> 17:59 </p>
             </div>
         </div>
-        <div class=row>
+        <div class="row rounded" style="background-color: white; margin-left: 0; margin-right: 0">
             <div class="column left3">
                 <svg class="icon" id="assignment" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
@@ -182,7 +189,7 @@
                 <p> 18:59 </p>
             </div>
         </div>
-        <div class=row>
+        <div class="row rounded" style="background-color: white; margin-left: 0; margin-right: 0">
             <div class="column left3">
                 <svg class="icon" id="assignment" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
@@ -197,14 +204,14 @@
                 <p> 16:59 </p>
             </div>
         </div>
-        <div class=row>
+        <div class="row rounded" style="background-color: white; margin-left: 0; margin-right: 0">
             <div class="column left3">
                 <svg class="icon" id="assignment" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path>
                 </svg>
             </div>
             <div class="column middle">
-                <h2 class="bold"> Drawing your Holid... </h2>
+                <h2 class="bold"> Drawing your Ho... </h2>
                 <p> Arts </p>
             </div>
             <div class="column right3 text-center rounded">
