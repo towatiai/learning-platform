@@ -12,14 +12,15 @@
   } from 'sveltestrap';
   export let assignment;
   export let freePick;
+  export let colorScheme;
 </script>
 
 <div>
   <Card class="mb-3 mx-4 bg-transparent text-white border-0">
     <CardHeader class="flex flex-row justify-between items-center border-0 bg-transparent">
-      <div class="flex flex-row">
-        <CardTitle class="font-varela font-bold mr-2">{assignment.course.toUpperCase()}: </CardTitle>
-        <CardTitle class="font-varela">{assignment.topic}</CardTitle>
+      <div class="flex flex-row items-center">
+        <CardTitle class="font-varela px-1 py-0.5 font-bold {colorScheme(assignment.course)}">{assignment.course.toUpperCase()}</CardTitle>
+        <CardTitle class="font-varela ml-1">: {assignment.topic}</CardTitle>
       </div>
       <button class="border-l border-b  rounded-full p-1" on:click= {freePick}>return</button>
     </CardHeader>
