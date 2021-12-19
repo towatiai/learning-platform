@@ -26,21 +26,20 @@
         padding-left: 5px;
     }
     .right3 {
-        width: 35%;
+        width: 32%;
         background-color: rgba(37, 99, 235, 0.03);
     }
     .tag {
         width: 3%;
-        background-color: #5EB670;
         border-radius: 5px 0 0 5px;
         margin-left: 10px;
     }
     .tag-main {
-        width: 80%;
-        padding-left: 10px;
+        width: 88%;
+        border-radius: 0 5px 5px 0;
     }
     .small-text {
-        color: #a8a8a8;
+        color: #8b8b8b;
         font-size: small;
     }
     .main-header {
@@ -110,39 +109,39 @@
         <h2 class="subheading"> Notifications </h2>
         <hr>
         <div class=row>
-            <div class="column tag">
+            <div class="column tag" style="background-color:rgb(112, 26, 117);">
                 <p class="small-text"> &nbsp; </p>
                 <p class="small-text"> &nbsp; </p>
                 <p class="bold"> &nbsp; </p>
                 &nbsp;
             </div>
-            <div class="column tag-main">
+            <div class="column tag-main" style="background-color:rgb(250, 230, 253);">
                 <p class="small-text"> Mathematics </p>
                 <p class="small-text"> 17 Dec, 12:28 by Olli-Pekka </p>
                 <p class="bold"> Do not forget to bring your calculators for next class! </p>
             </div>
         </div>
         <div class=row>
-            <div class="column tag">
+            <div class="column tag" style="background-color:rgb(127, 29, 29);">
                 <p class="small-text"> &nbsp; </p>
                 <p class="small-text"> &nbsp; </p>
                 <p class="bold"> &nbsp; </p>
                 &nbsp;
             </div>
-            <div class="column tag-main">
+            <div class="column tag-main" style="background-color:rgb(254, 227, 227);">
                 <p class="small-text"> English </p>
                 <p class="small-text"> 14 Dec, 14:47 by Sanna </p>
                 <p class="bold"> We will be reading the first chapter of the book "Diary of a Wimpy Kid" during next class </p>
             </div>
         </div>
         <div class=row>
-            <div class="column tag">
+            <div class="column tag" style="background-color:rgb(30, 58, 138);">
                 <p class="small-text"> &nbsp; </p>
                 <p class="small-text"> &nbsp; </p>
                 <p class="bold"> &nbsp; </p>
                 &nbsp;
             </div>
-            <div class="column tag-main">
+            <div class="column tag-main" style="background-color:rgb(223, 236, 253);">
                 <p class="small-text"> Arts </p>
                 <p class="small-text"> 10 Dec, 10:13 by Gregory </p>
                 <p class="bold"> Remember to bring old clothes for class on the 12th December to avoid stains on your uniforms </p>
